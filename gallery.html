@@ -1,0 +1,24 @@
+<!DCOTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Image Gallery</title>
+  </head>
+  <body>
+    <h1>Snapshots</h1>
+    <ul>
+      <li>
+        <a href="images/sydney.png" title="A beatiful city" onclick="showPic(this);return false;"> Sydney </a>
+      </li>
+      <li>
+        <a href="images/kangaroo.png" title="A giant animal" onclick="showPic(this);return false;"> Kangaroo </a>
+      </li>
+      <li>
+        <a href="images/koala.png" title="A lazy animal" onclick="showPic(this);return false;"> Koala </a>
+      </li>
+    </ul>
+    <img id="placeholder" src="images/koala.png" alt="my image gallery" />
+    <p id="description">Choose a image</p>
+    <script type="text/javascript" src="scripts/showPic.js"></script>
+  </body>
+</html>
