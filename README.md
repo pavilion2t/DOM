@@ -1,7 +1,7 @@
 ### DOM脚本的基石  
 * getElementById
-* getElementByTagName  
-* getElementByClassName  
+* getElementsByTagName  
+* getElementsByClassName  
 * getAttribute  
 * setAttribute
 
